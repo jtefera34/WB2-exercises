@@ -7,4 +7,4 @@ var tax=0.23;
 // calculations
 var taxamount = income * 0.23
 // output
-console.log(taxamount.toFixed(2));
+console.log("The total tax amount = " + taxamount.toFixed(2));

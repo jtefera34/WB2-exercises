@@ -7,4 +7,4 @@ var cels = 30;
 // calculations
 var fahr = (cels * 1.8)+32
 // output
-console.log(fahr);
+console.log("The fahranite is =" + fahr);
