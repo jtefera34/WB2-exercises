@@ -1,7 +1,7 @@
 "use strict";
 
 // sample inputs
-var fahr = 30;
+var fahr = 80;
 var cels;
 
 // calculations

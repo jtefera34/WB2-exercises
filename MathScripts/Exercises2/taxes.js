@@ -1,7 +1,7 @@
 "use strict";
 
 // sample inputs
-var income= 7570
+var income= 1000
 var tax=0.23;
 
 // calculations
