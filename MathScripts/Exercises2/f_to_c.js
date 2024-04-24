@@ -7,4 +7,4 @@ var cels;
 // calculations
 var cels = (fahr - 32)/1.8
 // output
-console.log(cels);
+console.log("The celcuis is = "  + cels);
