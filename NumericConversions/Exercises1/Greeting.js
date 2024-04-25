@@ -1,7 +1,9 @@
 "use strict";
 
-var hour = 20;
+var hour = 45;
 var greeting;
+
+overtime = (regularhours * payrate) + (((hoursworked - regularhours) * payrate) * 1.5)
 
 
 if (hour <= 10){
