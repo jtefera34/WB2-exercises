@@ -11,7 +11,7 @@ if (hoursworked > 40) {
 }
 
 else if
-  (hoursworked < 40){
+  (hoursworked < 40){ 
   payrate = 12.50;
 }
 
