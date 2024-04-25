@@ -8,12 +8,13 @@ var annual;
 var stat = "single";
 var tax;
 var overtime;
+var net;
 
 
 Grosspay = (payrate * hoursworked);
 annual = Grosspay * 52;
 overtime = (regularhours * payrate) + (((hoursworked - regularhours) * payrate) * 1.5);
-
+net = overtime - tax
 
 if (annual < 12000 && stat == "single"){
   tax = overtime * 0.05
@@ -42,9 +43,14 @@ else if (annual >= 75000 && stat == "joint"){
   tax = overtime * 0.2
 }
 
+net = overtime - tax
 
 
 console.log("The annual pay is = " + annual) 
 console .log("The WeeklyGross with out overtime pay is = " + Grosspay)
-console.log("The Tax cut is = " + tax);
 console.log("The overtime is = " + overtime);
+console.log("The Tax cut is = " + tax);
+console.log("The netincome is = " + net);
+
+
+
